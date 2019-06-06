@@ -1,7 +1,7 @@
 require 'pry'
 
 class Song
-  extend 'memorable'
+  extend 'lib/concerns/memorable'
 
   attr_accessor :name
   attr_reader :artist
